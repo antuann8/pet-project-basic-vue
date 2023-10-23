@@ -1,0 +1,69 @@
+.container {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 1266px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header {
+  color: #e31f24;
+  font-weight: 700px;
+  font-size: 32px;
+}
+
+.description {
+  font-size: 16px;
+  color: #333333;
+}
+
+.search__container {
+  width: 1266px;
+  height: 589px;
+  background-color: #dededd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.find {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 300px;
+  border-right: 1px solid red;
+  height: 589px;
+}
+
+.find__input {
+  width: 240px;
+  height: 14px;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 1.5px solid #e9ecef;
+
+  &:focus {
+    outline: none;
+    border-color: #dededd;
+    box-shadow: 0 0 5px #dededd;
+  }
+}
+
+.find__description {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.find__item {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+}
